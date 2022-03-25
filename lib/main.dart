@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:macgyver/src/login.dart';
 import 'src/home_screen.dart';
 
 void main() => runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Macgyver",
       theme: ThemeData(primaryColor: Colors.white),
-      home: HomeScreen(),
+      home: LoginPage(),
     );
   }
 }
